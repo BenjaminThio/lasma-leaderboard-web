@@ -1,0 +1,109 @@
+#profile {
+    height: 100%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#profile-container {
+    height: 90%;
+    width: 96%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    display: flex;
+}
+
+#profile-container-sidebar {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#profile-container-sidebar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem;
+    width: 100%;
+    border-bottom: 1px solid #3a3a3a;
+    text-align: center;
+}
+
+.profile-container-sidebar-item-first {
+    width: 100%;
+    height: 3rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.1s;
+}
+
+.profile-container-sidebar-item-first:hover {
+    width: 100%;
+    height: 3rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.profile-container-sidebar-item-first-active {
+    width: 100%;
+    height: 3rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.profile-container-sidebar-item-first-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.profile-container-sidebar-item-first-text {
+    font-weight: lighter;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.profile-container-sidebar-item-first-text > h3 {
+    flex: 1;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    margin: 0;
+    user-select: none;
+}
+
+.profile-container-sidebar-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.profile-container-sidebar-item-icon {
+    margin: 1rem;
+}
+
+#profile-container-content {
+    flex: 1;
+}

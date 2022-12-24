@@ -1,0 +1,10 @@
+#mainapplayout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#mainapplayout-content {
+    flex: 1;
+    overflow: auto;
+}

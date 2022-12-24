@@ -1,0 +1,140 @@
+.Container {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0.5rem;
+    max-width: 100%;
+    padding: 2rem;
+    margin: auto;
+}
+
+.InnerContainer {
+    display: grid;
+    padding: 2rem;
+    border: 1px solid #fef2f5;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    width: 565px
+}
+
+.Button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.Button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.Background {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 30s ease infinite;
+    overflow: auto;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    height: 100%;
+}
+
+.Input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 5px;
+}
+
+.Center {
+    text-align: center;
+}
+
+.MarginTop {
+    margin-top: 30px;
+}
+
+.Height {
+    height: 100%;
+}
+
+.Apps-Background {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 30s ease infinite;
+    height: 100%;
+    overflow: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Apps-Container {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+.Apps-Grid-Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Apps-Grid-Item {
+    font-size: large;
+    text-align: center;
+    width: 14rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #fef2f5;
+    border-radius: 0.5rem;
+    color: #fef2f5;
+    margin: 0.5rem;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.Apps-Grid-Item:hover {
+    color: #fef2f5;
+    background-color: transparent;
+}
+
+.Apps-Input {
+    display: block;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.Apps-IMG {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+}

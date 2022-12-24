@@ -1,0 +1,123 @@
+#profile-menu-content-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-menu-content-container-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-menu-content-container-user-picture {
+    height: 8rem;
+    width: 8rem;
+    cursor: pointer;
+    position: relative;
+}
+
+#profile-menu-content-container-user-picture > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#profile-picture-change-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-menu-content-container-user-username > h1 {
+    font-weight: lighter;
+    font-size: 2rem;
+    margin: 0;
+}
+
+#profile-menu-content-container-email {
+    width: 100%;
+    font-weight: lighter;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+#profile-menu-content-container-email > div {
+    margin-left: 1rem;
+}
+
+#profile-menu-content-container-email > p {
+    margin-left: 1rem;
+    font-size: 0.7rem;
+}
+
+#logout-menu-content-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logout-menu-content-container-text {
+    font-weight: lighter;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    width: 70%;
+}
+
+#logout-menu-content-container-logout-button {
+    margin: 1rem;
+}
+
+#profile-menu-content-container-user-infochange-button {
+    margin-left: 1rem;
+}
+
+#change-username-input {
+    width: 100%;
+    height: 100%;
+}
+
+#change-username-input > input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+#change-username-input > label {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+#profile-menu-content-container-user-username {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+#profile-menu-content-container-user-picture-input {
+    display: none;
+}

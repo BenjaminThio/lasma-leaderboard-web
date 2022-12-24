@@ -1,0 +1,64 @@
+#mainapp-quickactions-action-container {
+    background: linear-gradient(57deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    user-select: none;
+    cursor: pointer;
+    padding: 0.2rem;
+    margin: 0.8rem;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#mainapp-quickactions-action-title {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    max-lines: 1;
+}
+
+#mainapp-quickactions-action-description {
+    width: 100%;
+    text-align: center;
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainapp-quickactions-action-description-text {
+    z-index: 1;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: relative;
+}
+
+#mainapp-quickactions-action-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 5rem;
+    color: rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,10 @@
+#authlayout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#authlayout-content {
+    flex: 1;
+    overflow: auto;
+}
